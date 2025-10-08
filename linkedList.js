@@ -5,23 +5,24 @@ class Node{
     }
 }
 
-let head = new Node(10);
-let second = new Node(20);
-let third = new Node(30);
+// let head = new Node(10);
+// let second = new Node(20);
+// let third = new Node(30);
 
-head.next = second;
-second.next = third;
+// head.next = second;
+// second.next = third;
 
-let current = head;
-    while(current!== null){
-        console.log(current.data);
-        current = current.next;
-    }
+// let current = head;
+//     while(current!== null){
+//         console.log(current.data);
+//         current = current.next;
+//     }
 
 
 class linkedList{
     constructor(){
         this.head = null;
+        
     }
 
 append(data){
