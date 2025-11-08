@@ -24,3 +24,5 @@ function merge(left,right){
     return result.concat(left.slice(i)).concat(right.slice(j));
 
 }
+
+console.log(mergeSort([5,2,4,1,3]))

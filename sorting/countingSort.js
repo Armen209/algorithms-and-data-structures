@@ -33,3 +33,6 @@ function counting_sort(arr){
 console.log(counting_sort([5,7,6,8,5,7,8,9,5,8,9,7]));
 
 console.log([5,7,6,8,5,7,8,9,5,8,9,7].length)
+
+
+

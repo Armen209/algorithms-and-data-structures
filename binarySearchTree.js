@@ -75,12 +75,11 @@ class BST{
     result.push(node.data);
     return result;
   }
+
+
   delete(value){
     this.root = _deleteRec(this.root,value);
   }
-
-
-
 
   _deleteRec(node,value){
     if(!node) return null;
